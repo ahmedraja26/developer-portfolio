@@ -1,9 +1,11 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from "../assets/pdf/AhmedRajaCV.pdf";
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
-    resumePdf: resume
-}
+  name: "Ahmed Raja",
+  title: "Software Devloper",
+  desciption:
+    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact. With experince in both  ",
+  image:
+    "https://i.ibb.co/b6YpT77/Whats-App-Image-2021-12-10-at-11-40-29-3.jpg",
+  resumePdf: resume,
+};
