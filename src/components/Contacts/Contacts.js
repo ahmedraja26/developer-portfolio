@@ -175,10 +175,10 @@ function Contacts() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          setSuccess(true);
         },
         (error) => {
-          console.log(error.text);
+          setSuccess(false);
         }
       );
   };
