@@ -1,5 +1,5 @@
 export const achievementData = {
-  bio: "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
+  bio: "",
   achievements: [
     {
       id: 1,
@@ -11,6 +11,17 @@ export const achievementData = {
       field: "AWS",
       image:
         "https://media-exp1.licdn.com/dms/image/C560BAQE_4UwvNNtNTQ/company-logo_200_200/0/1640205885683?e=2147483647&v=beta&t=A-9vpU-DpLR3lg6cYzLHyo0hzJNAYBoV9GI8EGbqJZM",
+    },
+    {
+      id: 2,
+      title: "Certificate of Merit",
+      details:
+        "Certificate of Merit for Mobile and Personal Information Systems",
+      link: "",
+      date: "Nov, 2019",
+      field: "UKZN",
+      image:
+        "https://pbs.twimg.com/profile_images/892321106639585280/73fOI07J_400x400.jpg",
     },
   ],
 };

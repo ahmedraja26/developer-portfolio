@@ -29,9 +29,11 @@ function AchievementCard({ id, title, details, date, field, image, link }) {
             <h2 style={{ color: theme.tertiary }}>{title}</h2>
             <p style={{ color: theme.tertiary80 }}>{details}</p>
             <br></br>
-            <a style={{ color: theme.tertiary80 }} href={link}>
-              Click Here to View
-            </a>
+            {link.length > 0 && (
+              <a style={{ color: theme.tertiary80 }} href={link}>
+                Click Here to View
+              </a>
+            )}
           </div>
           <div
             className="achievecard-details2"
