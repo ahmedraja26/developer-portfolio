@@ -38,7 +38,7 @@ function About() {
         </div>
         <div className="about-img">
           <img
-            src="https://i.ibb.co/L1KCxfS/computer-work-removebg-preview.png"
+            src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-71fa2.appspot.com/o/computer_work-removebg-preview.png?alt=media&token=9b354fc0-9152-47be-b650-aa393bed8f86"
             alt=""
           />
         </div>
